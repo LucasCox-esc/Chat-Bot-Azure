@@ -1,0 +1,42 @@
+.pagina-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-left {
+    flex-direction: row;
+}
+
+.item-right {
+    flex-direction: row;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.texto-container {
+    max-width: 100%;
+    padding: 0 50px;
+}
+
+.texto {
+    font-size: 17px;
+    color: #333;
+    line-height: 1;
+    margin-bottom: 10px;
+}
