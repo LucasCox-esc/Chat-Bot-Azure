@@ -8,11 +8,21 @@
 .item {
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #181A1B;
     padding: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #b8b8b8;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.item p {
+    color: white;
+
 }
 
 .item-left {
@@ -24,8 +34,9 @@
 }
 
 .imagen {
-    max-width: 100%;
-    height: auto;
+    width: 400px; /* Ajusta el tamaño según tus necesidades */
+    height: 300px; /* Ajusta el tamaño según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar la imagen */
     border-radius: 5px;
 }
 
