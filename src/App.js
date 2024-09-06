@@ -4,6 +4,7 @@ import './App.css';
 import PaginaPrincipal from './Page/PaginaPrincipal';
 import asistenteBot from './Page/img/asistenteBot.png';
 import { Dialog } from 'primereact/dialog';
+import pizarra from '../src/Page/img/Pizarra-removebg-preview.png';
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -38,6 +39,9 @@ function App() {
             </div>
             <div style={{ padding: "15px", color: "white", backgroundColor: "#FE7777", width: "30%", height: "230px", borderRadius: "25px" }} className="contenedor col-span-2 row-span-2 col-start-3 row-start-3">              <h1>Técnica Pomodoro</h1>
               <p className="texto" style={{ color: "white" }}>Es un método de gestión del tiempo que consiste en trabajar en intervalos de 25 minutos separados por breves descansos, con el objetivo de mejorar la concentración, la productividad y la eficiencia en el trabajo o estudio.</p>
+            </div>
+            <div style={{display:"flex", alignItems:"end", marginLeft:"850px", marginTop:"-380px", width:"50%"}}>
+              <img style={{width:"90%"}} alt='img' src={pizarra} />
             </div>
           </div>
         </div>
