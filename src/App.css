@@ -3,7 +3,7 @@
 }
 
 Body {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .App-logo {
@@ -12,7 +12,13 @@ Body {
 }
 
 
+.contenedor {
+  transition: transform 0.3s ease;
+}
 
+.contenedor:hover {
+  transform: translateY(-10px);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
